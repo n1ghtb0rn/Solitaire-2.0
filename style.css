@@ -1,0 +1,82 @@
+.card {
+	box-sizing: border-box;  
+	width: 150px;
+	height: 214px;
+	margin:10px;
+
+	background-color: white;
+	background-image: url('deck.png');
+	background-position-x: 0px;
+	background-position-y: center;
+	background-repeat: none;
+	background-position: middle center;  
+	border: 1px #555555 solid;
+	border-radius: 10px;
+	-webkit-box-shadow: 2px 2px 3px 0px #000000; 
+	box-shadow: 2px 2px 3px 0px #000000; 
+	border-width: "1px";
+}
+
+.slot {
+	box-sizing: border-box;  
+	width: 150px;
+	height: 214px;
+	margin:10px;
+
+	background-color: rgba(255, 255, 255, 0);
+	background-position-x: 0px;
+	background-position-y: center;
+	background-repeat: none;
+	background-position: middle center;  
+	border: 1px #555555 solid;
+	border-radius: 10px;
+	border-width: 1px;
+}
+
+body {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+
+#playfield {
+	width: 1200px;
+	background-color: green;
+	border-radius: 20px;
+	border: solid;
+	border-color: rgb(126, 85, 38);
+	border-width: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+#top-area {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#top-left-area {
+	display: flex;
+	flex: row;
+}
+
+#top-right-area {
+	display: flex;
+	flex: row;
+}
+
+hr {
+	margin: 25px;
+	visibility: hidden;
+}
+
+#main-area {
+	display: flex;
+	flex-direction: row;
+	height: 1000px;
+}
+
+#column1, #column2, #column3, #column4, #column5, #column6, #column7, #column8 {
+	
+}
